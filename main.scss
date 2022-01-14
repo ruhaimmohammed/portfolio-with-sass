@@ -2,6 +2,7 @@
 @import 'home';
 @import 'menu';
 @import 'about';
+@import 'projects';
 
 body{
     background: $primary-color;
@@ -9,6 +10,7 @@ body{
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
+    overflow: hidden;
 }
 
 h1, h2, h3{
