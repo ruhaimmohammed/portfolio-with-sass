@@ -1,3 +1,6 @@
+main {
+    z-index: -5;
+}
 .about {
     padding: 2rem;
 
@@ -58,9 +61,10 @@
         flex-direction: column;
     }
 
-    footer {
-        transform: 
-            rotate(90deg)
-            translate(19rem, -26.5rem);
-    }
+}
+
+footer{
+    position: absolute;
+    left: 45rem;
+    margin-bottom: 25px;
 }

@@ -12,7 +12,6 @@ body{
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
-    overflow: hidden;
 }
 
 h1, h2, h3{
@@ -29,11 +28,14 @@ a{
 }
 
 header{
-    position: fixed;
-    z-index: 2;
+    position: sticky;
+    z-index: 5;
     width: 100%;
     padding: 1rem;
     display: flex;
+    background: $primary-color;
+    margin-bottom: 10px;
+    height: 5rem;
 }
 
 main{
@@ -64,10 +66,9 @@ main{
 
 .footer{
     font-size: 1rem;
-    position: fixed;
+    position: absolute;
     bottom: 0.4rem;
-    right: 1rem;
-    text-align: right;
+    right: 4rem;
     padding: 1rem;
     color: set-text-color($primary-color);
 }
